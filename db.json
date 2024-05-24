@@ -1,0 +1,125 @@
+{
+  "user": [
+    {
+      "id": "adminuser",
+      "name": "Nihira",
+      "password": "admin",
+      "email": "nihiratechiees@gmail.com",
+      "phone": "8989898989",
+      "country": "usa",
+      "address": "",
+      "role": "admin",
+      "gender": "female"
+    },
+    {
+      "id": "ntuser",
+      "name": "Fullname",
+      "password": "ntuser",
+      "email": "email@email.com",
+      "phone": "56778889989",
+      "country": "singapore",
+      "address": "address1\naddrees2",
+      "role": "user",
+      "gender": "male"
+    },
+    {
+      "id": "Faisal",
+      "name": "Fullname",
+      "password": "faisal",
+      "email": "hayatfaisal355@gmail.com",
+      "phone": "8969753445",
+      "country": "singapore",
+      "address": "",
+      "role": "admin",
+      "gender": "male"
+    },
+    {
+      "id": "Faisal Hayat",
+      "name": "Faisal",
+      "password": "faisal",
+      "email": "hayatfaisal355@gmail.com",
+      "phone": "8969753445",
+      "country": "india",
+      "address": "Bengaluru",
+      "gender": "male",
+      "role": "admin"
+    },
+    {
+      "id": "Arjun",
+      "name": "Arjun TR",
+      "password": "arjun",
+      "email": "arjun@gmail.com",
+      "phone": "6278787887",
+      "country": "india",
+      "address": "Bengaluru",
+      "gender": "male",
+      "role": "user"
+    }
+  ],
+  "roleaccess": [
+    {
+      "role": "admin",
+      "menu": "customer",
+      "haveadd": true,
+      "haveedit": true,
+      "havedelete": true,
+      "id": "40c9"
+    },
+    {
+      "role": "admin",
+      "menu": "supplier",
+      "haveadd": true,
+      "haveedit": true,
+      "havedelete": true,
+      "id": "88cd"
+    },
+    {
+      "role": "user",
+      "menu": "customer",
+      "haveadd": false,
+      "haveedit": false,
+      "havedelete": false,
+      "id": "3770"
+    },
+    {
+      "role": "user1",
+      "menu": "customer",
+      "haveadd": false,
+      "haveedit": false,
+      "havedelete": false,
+      "id": "c0c1"
+    }
+  ],
+  "customer": [
+    {
+      "code": 1,
+      "name": "Chris",
+      "email": "chris@in.com",
+      "id": "9a04"
+    },
+    {
+      "code": 2,
+      "name": "Lynn",
+      "email": "lynn@in.com",
+      "id": "da94"
+    },
+    {
+      "code": 3,
+      "name": "Tim",
+      "email": "tim@in.com",
+      "id": "52d7"
+    },
+    {
+      "code": 4,
+      "name": "Southee",
+      "email": "southee@in.com",
+      "id": "5e1e"
+    },
+    {
+      "code": 5,
+      "name": "boult",
+      "email": "bould@in.com",
+      "id": "6b56"
+    }
+  ]
+}
